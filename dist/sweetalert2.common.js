@@ -121,7 +121,10 @@ var states = {
   container.className = swalClasses.container;
   container.innerHTML = sweetHTML;
 
-  var targetElement = document.querySelector(params.target);
+  var targetElement = params.target;
+
+  targetElement = typeof targetElement === "string" ? document.querySelector(targetElement) : targetElement;
+
   if (!targetElement) {
     console.warn('SweetAlert2: Can\'t find the target "' + params.target + '"');
     targetElement = document.body;
