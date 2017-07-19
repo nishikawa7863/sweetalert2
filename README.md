@@ -1,5 +1,7 @@
-SweetAlert2
+SweetAlert2 w/Target Selection Mod
 -----------
+
+This build of sweet alert accepts a DOM Element as the target property not only a string.
 
 [![Build Status](https://travis-ci.org/limonte/sweetalert2.svg?branch=master)](https://travis-ci.org/limonte/sweetalert2)
 [![Version](https://img.shields.io/npm/v/sweetalert2.svg)](https://www.npmjs.com/package/sweetalert2)
